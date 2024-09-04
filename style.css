@@ -91,3 +91,25 @@ body {
         transform: rotate(90deg) translate(-.25rem);
     }
 }
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .accordion {
+        max-width: 380px;
+    }
+
+    .tab__label {
+        font-size: 16px; 
+        padding: 0.75rem 1rem;
+    }
+
+    .tab__label::after {
+        font-size: 1.25em;
+    }
+
+    .tab__content {
+        padding: 0 20px;
+    }
+}
+
